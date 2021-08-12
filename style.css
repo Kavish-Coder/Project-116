@@ -1,0 +1,21 @@
+h3 {
+    font-size: 35px !important;
+    box-shadow: 3px 4px 38px blue;
+}
+
+button {
+    font-size: 20px !important;
+}
+
+canvas {
+    animation-name: example;
+
+    animation-duration: 1s;
+
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
